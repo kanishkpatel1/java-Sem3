@@ -1,40 +1,13 @@
-// class Test{
-//     int i;
-//     void setValue(int x){
-//         i=x;
-//     }
-//     void show(){
-//         System.out.println(i);
-//     }
+public class Test{
+public static void main(String[] args){
+char c=65535;
+int b=0B1011;
+int d=017;
+int e=0xABCD;
+System.out.println(c);
+System.out.println(b);
+System.out.println(d);
+System.out.println(e);
 
-// }
-//  class Xyz{
-//     public static void main(String[] args) {
-//         Test t=new Test();
-//         t.setValue(10);
-//         t.show();
-        
-//     }
-// }
-
-
-
-
-class Test{
-    int i;
-    void setValue(int i){
-       this.i=i;
-    }
-    void show(){
-        System.out.println(i);
-    }
-
-public class xyz{
- 
-    public static void main(String[] args) {
-        Test t=new Test();
-        t.setValue(10);
-        t.show();
-        
-    }
-}}
+}
+}
