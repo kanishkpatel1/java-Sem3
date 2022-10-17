@@ -1,19 +1,24 @@
-class Hello{
-    String name;
+public class test {
+    String name;  //it is valid
+    
+    {
+        System.out.println("hsdkdsjfkljsdfkljf");
+        name="kanishk";  //this is a instance block
+    }
+test(){
+    System.out.println("constuctor bloc");  //it will execute after instance
+}
+static{
+    System.out.println("static block");   // it will execute before main method
+
+ 
 }
 
-// public class test{
-//     public static void main(String[] args) {
-//         Hello h=new Hello();
-//         h.name="kanishk";
-// System.out.println(h.name);
-//     }
-// }
+    // String name;
+    //name="kanishk";  //it is invalid
 
-public class test extends Hello{
     public static void main(String[] args) {
-        test h=new test();
-        h.name="kanishk";
-System.out.println(h.name);
+      test t=new test();  
+     
     }
 }
